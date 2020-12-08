@@ -26,8 +26,8 @@ public:
  
 int main() 
 { 
-	Distance d1(8, 9); 
-	Distance d2(10, 2); 
+	Distance d1(5, 1); 
+	Distance d2(20, 3); 
 	Distance d3; 
 	d3 = d1 + d2; 
 	cout << "\nTotal Feet & Inches: " << d3.feet << "'" << d3.inch; 
